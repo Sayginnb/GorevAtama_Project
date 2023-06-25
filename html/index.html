@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <style>
+    /* CSS styles for the admin panel */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #sidebar {
+      background-color: #333;
+      color: #fff;
+      width: 250px;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    #sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #sidebar li {
+      margin-bottom: 10px;
+    }
+    
+    #sidebar a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    #content {
+      padding: 20px;
+      margin-left: 250px;
+    }
+    
+    /* CSS styles for demo purposes */
+    #sidebar {
+      background-color: #333;
+    }
+    
+    #sidebar ul {
+      padding-left: 10px;
+    }
+    
+    #sidebar li {
+      font-size: 18px;
+    }
+    
+    #content {
+      background-color: #f2f2f2;
+    }
+    
+    .card {
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .card h2 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+    
+    .card p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="sidebar">
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Users</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <h1>Welcome to the Admin Panel</h1>
+    <div class="card">
+      <h2>Dashboard</h2>
+      <p>This is the dashboard section where you can view statistics and important information.</p>
+    </div>
+    <div class="card">
+      <h2>Users</h2>
+      <p>This is the users section where you can manage user accounts, roles, and permissions.</p>
+    </div>
+    <div class="card">
+      <h2>Products</h2>
+      <p>This is the products section where you can manage your inventory and add/edit/delete products.</p>
+    </div>
+    <div class="card">
+      <h2>Orders</h2>
+      <p>This is the orders section where you can view and manage customer orders.</p>
+    </div>
+    <div class="card">
+      <h2>Settings</h2>
+      <p>This is the settings section where you can configure various options for your admin panel.</p>
+    </div>
+  </div>
+</body>
+</html>
